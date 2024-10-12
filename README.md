@@ -13,9 +13,13 @@
 <a href="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/proof-html.yml">
     <img class="workflow-badge workflow-success" src="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
 </a>
-
+<br>
 <div align="center">
-<a href="https://github.com/CursedPrograms" target="_blank">
+© Cursed Entertainment
+</div>
+<br>
+<div align="center">
+<a href="https://cursed-entertainment.itch.io/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
         alt="CursedEntertainment Logo" style="width:250px;">
 </a>
