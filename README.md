@@ -6,8 +6,6 @@
   </a>
 </div>
 
-# Cursed Directory
-
 <a href="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/auto-assign.yml">
     <img class="workflow-badge workflow-success" src="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/auto-assign.yml/badge.svg" alt="Auto Assign Workflow">
 </a>
@@ -15,6 +13,9 @@
 <a href="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/proof-html.yml">
     <img class="workflow-badge workflow-success" src="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
 </a>
+
+# Cursed Directory
+
  <h2>Websites</h2>
         <li ><a href="https://cursed-entertainment.netlify.app/" target="_blank">Cursed Entertainment on Netlify</a></li>
         <li><a href="https://cursedprograms.github.io/cursedentertainment" target="_blank">Cursed Entertainment GitHub Pages</a></li>
