@@ -6,48 +6,33 @@
   </a>
 </div>
 
-<a href="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/auto-assign.yml">
-    <img class="workflow-badge workflow-success" src="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/auto-assign.yml/badge.svg" alt="Auto Assign Workflow">
+# cursed directory
+
+Every Cursed Entertainment website, game, robot and program in one list: the DREAM Robotics fleet, the Changeling face apps, AI and vision tools, VSTs and pedals, web games, AR, Unity work and templates. It replaces the old VST-Directory.
+
+Visit the live directory [here](https://cursed-entertainment.github.io/cursed-directory/).
+
+<div align="center">
+<a href="https://cursed-entertainment.github.io/cursed-directory/" target="_blank">
+    <img src="https://raw.githubusercontent.com/Cursed-Entertainment/cursed-directory/main/images/site-qr.png"
+        alt="QR code to the cursed directory" style="width:200px;">
 </a>
+</div>
 
-<a href="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/proof-html.yml">
-    <img class="workflow-badge workflow-success" src="https://github.com/Cursed-Entertainment/Image-Uploader-Resizer/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
-</a>
+## How it's built
 
-# Cursed Directory
+- `index.html` is the list. Names are lower case; each entry links to the live site (or the repo when there is no site), with a `code` link to the repo.
+- `index.css` only lays the list out. Colours, fonts and the header come from the shared Cursed CSS in [cursedentertainment](https://github.com/CursedPrograms/cursedentertainment) (`styles/main-style.css`), so a change there changes this site too.
+- `index.js` filters the list as you type.
 
- <h2>Websites</h2>
-        <li ><a href="https://cursed-entertainment.netlify.app/" target="_blank">Cursed Entertainment on Netlify</a></li>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment" target="_blank">Cursed Entertainment GitHub Pages</a></li>
-        <li><a href="https://cursedentertainment.wordpress.com/" target="_blank">Cursed Entertainment on WordPress</a></li>
-        <li><a href="https://cursed-xxx.netlify.app">XXX</a></li>
-<li><a href="https://cursedprograms.github.io/image-gen-demo-images/">Image-Gen-Demo-Images</a></li> 
-          <h2>Software</h2> 
-<li><a href="https://cursedprograms.github.io/gennhausser-pr/">gennhuaser</a></li>   
-    <li><a href="https://cursedprograms.github.io/gloroisa-ai-pr//">GloriosaAI</a></li> 
-        <h2>Software Demos</h2>        
-        <li><a href="https://image-uploader-resizer.onrender.com/" target="_blank">Image Uploader & Resizer</a></li>
-        <li><a href="https://comce.onrender.com/" target="_blank">Comce</a></li>
-        <li><a href="https://ce-chat.netlify.app/" target="_blank">CE Chat on Netlify</a></li>
-          <li><a href="https://augmented-reality-js.netlify.app/" target="_blank">ar.js</a></li>          
-         <h2>Website Games</h2>
-        <li ><a href="https://cursedprograms.github.io/cursed-snake" target="_blank">JS Snake</a></li>
-        <li ><a href="https://cursedprograms.github.io/cursed-pixels/" target="_blank">Cursed Pixels</a></li>
-          <li ><a href="https://killer-stardust.netlify.app/" target="_blank">Killer Stardust</a></li>          
-        <h2>WebGL Games</h2>
-        <li><a href="https://arise-mexzmiriah.netlify.app/">Arise Mexzmiriah</a></li>
-        <li><a href="https://mirror-macabre.netlify.app/">Mirror Macabre</a></li>
-        <h2>Downloadable Games</h2>
-        <li><a href="https://araknia.netlify.app/">Araknia</a></li>
-        <li><a href="https://nystylla-girls-of-maluxzka.netlify.app/">Nystylla: Girls of Maluxzka</a></li>
 <br>
 <div align="center">
-© Cursed Entertainment
+© Cursed Entertainment 2026
 </div>
 <br>
 <div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
-    <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
+    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/logos/logo-wide-grey.png"
         alt="CursedEntertainment Logo" style="width:250px;">
 </a>
 </div>

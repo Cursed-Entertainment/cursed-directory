@@ -4,83 +4,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cursedprograms.github.io/cursedentertainment/cursedFavicon.png" rel="icon"
-        type="image/x-icon" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cursedprograms.github.io/cursedentertainment/styles/content-style.css">
+    <title>cursed directory</title>
+    <meta name="description" content="Every Cursed Entertainment website, game, robot and program in one list.">
+    <link href="https://cursedprograms.github.io/cursedentertainment/cursedFavicon.png" rel="icon" type="image/png">
+    <!-- the shared Cursed CSS lives in the cursedentertainment repo: change it there, it changes here -->
+    <link href="https://cursedprograms.github.io/cursedentertainment/styles/main-style.css" rel="stylesheet" type="text/css">
     <link href="index.css" rel="stylesheet" type="text/css">
-    <title>Cursed Entertainment</title>
 </head>
 
 <body>
-    <div class="home-content" align="center">
-        <div class="header_container">
-            <iframe
-                src="https://cursedprograms.github.io/cursedentertainment/iframes/header/page-headers/home-header.html"
-                frameborder="0" width="100%" height="500px"></iframe>
-        </div>
-        <div id="container">
-            <div class="content">
-                            <div style="text-align: center;">
-    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-    <script type='text/javascript'>
-        kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'B0B3LYRVG');
-        kofiwidget2.draw();
-    </script>
-</div>
-                <ul>
-                    <h1>Directory Links</h1>
-                    <h2>Websites</h2>
-                    <li><a href="https://cursed-entertainment.netlify.app/" target="_blank">Cursed Entertainment on
-                            Netlify</a></li>
-                    <li><a href="https://cursedprograms.github.io/cursedentertainment" target="_blank">Cursed
-                            Entertainment GitHub Pages</a></li>
-                    <li><a href="https://cursedentertainment.wordpress.com/" target="_blank">Cursed Entertainment on
-                            WordPress</a></li>
-                    <li><a href="https://cursed-xxx.netlify.app">XXX</a></li>
-                    <li><a href="https://cursedprograms.github.io/qr-code-scanner/">QR Code Scanner</a></li>
-                    <li><a href="https://cursedprograms.github.io/qr-code-creator/">QR Code Creator</a></li>
-                    <li><a href="https://cursedprograms.github.io/brainf-ck-converter/">Brainfuck Converter</a></li>
-                    <li><a href="https://cursedprograms.github.io/image-gen-demo-images/">Image-Gen-Demo-Images</a></li>
-                    <h2>Software</h2>
-                    <li><a href="https://cursedprograms.github.io/gennhausser-pr/">gennhuaser</a></li>
-                    <li><a href="https://cursedprograms.github.io/gloroisa-ai-pr//">GloriosaAI</a></li>
-                    <h2>Software Demos</h2>
-                    <li><a href="https://image-uploader-resizer.onrender.com/" target="_blank">Image Uploader &
-                            Resizer</a></li>
-                    <li><a href="https://comce.onrender.com/" target="_blank">Comce</a></li>
-                    <li><a href="https://ce-chat.netlify.app/" target="_blank">CE Chat on Netlify</a></li>
-                    <li><a href="https://augmented-reality-js.netlify.app/" target="_blank">ar.js</a></li>
-                    <h2>Website Games</h2>
-                    <li><a href="https://cursedprograms.github.io/cursed-snake" target="_blank">JS Snake</a></li>
-                    <li><a href="https://cursedprograms.github.io/cursed-pixels/" target="_blank">Cursed Pixels</a></li>
-                    <li><a href="https://killer-stardust.netlify.app/" target="_blank">Killer Stardust</a></li>
-                    <h2>WebGL Games</h2>
-                    <li><a href="https://arise-mexzmiriah.netlify.app/">Arise Mexzmiriah</a></li>
-                    <li><a href="https://mirror-macabre.netlify.app/">Mirror Macabre</a></li>
-                    <h2>Downloadable Games</h2>
-                    <li><a href="https://araknia.netlify.app/">Araknia</a></li>
-                    <li><a href="https://nystylla-girls-of-maluxzka.netlify.app/">Nystylla: Girls of Maluxzka</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="header_container">
+        <iframe title="Site header"
+            src="https://cursedprograms.github.io/cursedentertainment/iframes/header/page-headers/home-header.html"
+            frameborder="0" width="100%" height="500px"></iframe>
     </div>
+
+    <main class="directory">
+        <h1>cursed directory</h1>
+        <p class="intro">every cursed entertainment website, game, robot and program in one place.</p>
+        <input id="dir-filter" class="dir-filter" type="search" placeholder="filter..." aria-label="filter the directory">
+
+        <div class="dir-grid">
+                <section class="dir-section">
+                    <h2>websites</h2>
+                    <ul>
+                    <li><a href="https://cursedprograms.github.io/cursedentertainment/">cursed entertainment</a> <span class="blurb">the main site</span></li>
+                    <li><a href="https://cursed-entertainment.netlify.app/">cursed entertainment on netlify</a> <span class="blurb">mirror</span></li>
+                    <li><a href="https://cursedentertainment.wordpress.com/">cursed entertainment on wordpress</a> <span class="blurb">blog</span></li>
+                    <li><a href="https://cursed-entertainment.itch.io/">cursed entertainment on itch.io</a> <span class="blurb">games and downloads</span></li>
+                    <li><a href="https://cursed-xxx.netlify.app">xxx</a></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/doodskrag">code</a> <a href="https://cursedprograms.github.io/doodskrag/">doodskrag</a> <span class="blurb">afrikaans black metal band site</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/cocokadari">code</a> <a href="https://cursedprograms.github.io/cocokadari/">cocokadari</a> <span class="blurb">ここ☆デレデレ site</span></li>
+                    <li><a href="https://github.com/CursedPrograms/amplifiedinsurrection">amplifiedinsurrection</a> <span class="blurb">amplified insurrection</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/image-gen-demo-images">code</a> <a href="https://cursedprograms.github.io/image-gen-demo-images/">image gen demo images</a> <span class="blurb">sdxl image-generator gallery</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/windows-xp-html">code</a> <a href="https://cursedprograms.github.io/windows-xp-html/">windows xp html</a> <span class="blurb">windows xp style website</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Chapters">code</a> <a href="https://cursedprograms.github.io/Chapters/">chapters</a> <span class="blurb">chapter-based story site</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>dream robotics</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/DREAM">code</a> <a href="https://cursedprograms.github.io/DREAM/">dream</a> <span class="blurb">offline ai robot companion</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/TINA">code</a> <a href="https://cursedprograms.github.io/TINA/">tina</a> <span class="blurb">the fleet engineer</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/NINA">code</a> <a href="https://cursedprograms.github.io/NINA/">nina</a> <span class="blurb">the fleet caretaker</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/RIFT">code</a> <a href="https://cursedprograms.github.io/RIFT/">rift</a> <span class="blurb">the fleet hub</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/RITA">code</a> <a href="https://cursedprograms.github.io/RITA/">rita</a> <span class="blurb">handheld fleet remote</span></li>
+                    <li><a href="https://github.com/CursedPrograms/LYCEA">lycea</a> <span class="blurb">ml-agents school for the fleet</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/AURA">code</a> <a href="https://cursedprograms.github.io/AURA/">aura</a> <span class="blurb">weather station</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/FLORA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/FLORA-Robot-v00/">flora robot v00</a> <span class="blurb">gardener robot</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/NORA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/NORA-Robot-v00/">nora robot v00</a> <span class="blurb">esp32 mecanum robot</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/MILA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/MILA-Robot-v00/">mila robot v00</a> <span class="blurb">small wifi tank robot</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/NIKA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/NIKA-Robot-v00/">nika robot v00</a> <span class="blurb">synth robot that thinks in square waves</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/WHIP-Robot-v00">code</a> <a href="https://cursedprograms.github.io/WHIP-Robot-v00/">whip robot v00</a> <span class="blurb">18-servo hexapod</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/KIDA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/KIDA-Robot-v00/">kida robot v00</a> <span class="blurb">raspberry pi 3 tank robot</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/KIDA-Robot-v01">code</a> <a href="https://cursedprograms.github.io/KIDA-Robot-v01/">kida robot v01</a> <span class="blurb">raspberry pi 5 + hailo tank robot</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/IDA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/IDA-Robot-v00/">ida robot v00</a> <span class="blurb">arduino tank robot</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ARM-Robot-v01">code</a> <a href="https://cursedprograms.github.io/ARM-Robot-v01/">arm robot v01</a> <span class="blurb">6-dof robot arm</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ARIA-Robot-v00">code</a> <a href="https://cursedprograms.github.io/ARIA-Robot-v00/">aria robot v00</a> <span class="blurb">esp32 drone</span></li>
+                    <li><a href="https://github.com/CursedPrograms/DREAM-Robotics">dream robotics</a> <span class="blurb">the ecosystem hub</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>changeling</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-Studio">code</a> <a href="https://cursedprograms.github.io/Changeling-Studio/">changeling studio</a> <span class="blurb">every changeling in one place</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-CopyCat">code</a> <a href="https://cursedprograms.github.io/Changeling-CopyCat/">changeling copycat</a> <span class="blurb">face swap for photos and videos</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-CopyCat-Realtime">code</a> <a href="https://cursedprograms.github.io/Changeling-CopyCat-Realtime/">changeling copycat realtime</a> <span class="blurb">live face swap for calls</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-Chronos">code</a> <a href="https://cursedprograms.github.io/Changeling-Chronos/">changeling chronos</a> <span class="blurb">age a face forwards or back</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-Cosmetics">code</a> <a href="https://cursedprograms.github.io/Changeling-Cosmetics/">changeling cosmetics</a> <span class="blurb">makeup, hair and beard</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-Echo">code</a> <a href="https://cursedprograms.github.io/Changeling-Echo/">changeling echo</a> <span class="blurb">train rvc voices</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-Natio">code</a> <a href="https://cursedprograms.github.io/Changeling-Natio/">changeling natio</a> <span class="blurb">your face born elsewhere</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Changeling-Tiresias">code</a> <a href="https://cursedprograms.github.io/Changeling-Tiresias/">changeling tiresias</a> <span class="blurb">gender swap for photos</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>ai &amp; vision</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/AetherCanvas-AI">code</a> <a href="https://cursedprograms.github.io/AetherCanvas-AI/">aethercanvas ai</a> <span class="blurb">local visual ai studio</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Image-Generator">code</a> <a href="https://cursedprograms.github.io/Image-Generator/">image generator</a> <span class="blurb">sdxl-turbo image tools</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/GloriosaAI">code</a> <a href="https://cursedprograms.github.io/gloriosa-ai-pr/">gloriosaai</a> <span class="blurb">gan image generator</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/gennhausser">code</a> <a href="https://cursedprograms.github.io/gennhausser-pr/">gennhausser</a> <span class="blurb">lstm music generation</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Cursed-GPT">code</a> <a href="https://cursedprograms.github.io/cursedgpt-pr/">cursed gpt</a> <span class="blurb">gpt-2 text generation</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/SynthWomb">code</a> <a href="https://synthwomb.github.io/synth.womb/">synthwomb</a> <span class="blurb">nlp, image and music ai toolkit</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Whisper-Ollama-Piper-ChatBot">code</a> <a href="https://cursedprograms.github.io/Whisper-Ollama-Piper-ChatBot/">whisper ollama piper chatbot</a> <span class="blurb">jenny, a local voice assistant</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Mosaic-Mask">code</a> <a href="https://cursedprograms.github.io/Mosaic-Mask/">mosaic mask</a> <span class="blurb">scramble-suit face mosaic for calls</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Monocular-Depth">code</a> <a href="https://cursedprograms.github.io/Monocular-Depth/">monocular depth</a> <span class="blurb">webcam depth with midas</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Detect-Face">code</a> <a href="https://cursedprograms.github.io/Detect-Face/">detect face</a> <span class="blurb">face detection</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Gender-Age-ID">code</a> <a href="https://cursedprograms.github.io/gender-age-id-pr/">gender age id</a> <span class="blurb">gender and age from faces</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Webcam-Display">webcam display</a> <span class="blurb">webcam with face detection</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/OpenCV-ColourDetection">code</a> <a href="https://cursedprograms.github.io/OpenCV-ColourDetection/">opencv colourdetection</a> <span class="blurb">colour detection</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Flux-Interface">flux interface</a> <span class="blurb">python interface for flux</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Pre-Trained-AI-Models">pre trained ai models</a> <span class="blurb">model list</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>audio, vst &amp; pedals</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/SafetyPin">code</a> <a href="https://cursedprograms.github.io/SafetyPin/">safetypin</a> <span class="blurb">violin distortion vst3</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Fuzz14">code</a> <a href="https://cursedprograms.github.io/Fuzz14/">fuzz14</a> <span class="blurb">simulated breadboard fuzz</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/stringtuner">code</a> <a href="https://cursedprograms.github.io/stringtuner/">stringtuner</a> <span class="blurb">tuner for every string instrument</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Solderless">code</a> <a href="https://cursedprograms.github.io/Solderless/">solderless</a> <span class="blurb">virtual pedal breadboard (planning)</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/PulseAmp-Media-Player">code</a> <a href="https://cursedprograms.github.io/PulseAmp-Media-Player/">pulseamp media player</a> <span class="blurb">c++ media player</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>tools &amp; utilities</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/CRUSH">code</a> <a href="https://cursedprograms.github.io/CRUSH/">crush</a> <span class="blurb">lossless compressor</span></li>
+                    <li><a href="https://github.com/CursedPrograms/PyVitals">pyvitals</a> <span class="blurb">system monitor</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Scan-WIFI-Devices">code</a> <a href="https://cursedprograms.github.io/Scan-WIFI-Devices/">scan wifi devices</a> <span class="blurb">who&#x27;s on your wi-fi?</span></li>
+                    <li><a href="https://github.com/CursedPrograms/syntaxia-structura">syntaxia structura</a> <span class="blurb">math-driven document system</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/qr-code-creator">code</a> <a href="https://cursedprograms.github.io/qr-code-creator/">qr code creator</a> <span class="blurb">make qr codes</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/qr-code-scanner">code</a> <a href="https://cursedprograms.github.io/qr-code-scanner/">qr code scanner</a> <span class="blurb">scan qr codes</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/brainf-ck-converter">code</a> <a href="https://cursedprograms.github.io/brainf-ck-converter/">brainf*ck converter</a> <span class="blurb">text to brainfuck</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Image-Uploader-Resizer">code</a> <a href="https://image-uploader-resizer.onrender.com/">image uploader resizer</a> <span class="blurb">flask image uploader</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Image-Resizer">image resizer</a> <span class="blurb">resize images</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ComCE">code</a> <a href="https://comce.onrender.com/">comce</a> <span class="blurb">flask chatroom</span></li>
+                    <li><a href="https://ce-chat.netlify.app/">ce chat</a> <span class="blurb">chat site</span></li>
+                    <li><a href="https://github.com/CursedPrograms/speedtest">speedtest</a> <span class="blurb">connection speed test</span></li>
+                    <li><a href="https://github.com/CursedPrograms/FileTree">filetree</a> <span class="blurb">print a directory tree</span></li>
+                    <li><a href="https://github.com/CursedPrograms/print-requirements.txt">print-requirements.txt</a> <span class="blurb">requirements.txt for a venv</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/git-commands">code</a> <a href="https://cursedprograms.github.io/git-commands/">git commands</a> <span class="blurb">git cheat sheet</span></li>
+                    <li><a href="https://github.com/CursedPrograms/CE-Installer-Alpha">ce installer alpha</a> <span class="blurb">installer (alpha)</span></li>
+                    <li><a href="https://github.com/CursedPrograms/OpenGL-Wheels-3.1.7-cp312-Archive">opengl wheels 3.1.7 cp312 archive</a> <span class="blurb">pyopengl wheels</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>games</h2>
+                    <ul>
+                    <li><a href="https://arise-mexzmiriah.netlify.app/">arise mexzmiriah</a> <span class="blurb">webgl game</span></li>
+                    <li><a href="https://mirror-macabre.netlify.app/">mirror macabre</a> <span class="blurb">webgl game</span></li>
+                    <li><a href="https://araknia.netlify.app/">araknia</a> <span class="blurb">downloadable game</span></li>
+                    <li><a href="https://nystylla-girls-of-maluxzka.netlify.app/">nystylla: girls of maluxzka</a> <span class="blurb">downloadable game</span></li>
+                    <li><a href="https://cursed-arcade.netlify.app">cursed arcade</a> <span class="blurb">browser games</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>web games &amp; toys</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/cursed-snake">code</a> <a href="https://cursedprograms.github.io/cursed-snake/">cursed snake</a> <span class="blurb">snake</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/cursed-pixels">code</a> <a href="https://cursedprograms.github.io/cursed-pixels/">cursed pixels</a> <span class="blurb">canvas drawing app</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/killer-stardust">code</a> <a href="https://killer-stardust.netlify.app/">killer stardust</a> <span class="blurb">html game (in development)</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/endless-runner-html">code</a> <a href="https://cursedprograms.github.io/endless-runner-html/">endless runner html</a> <span class="blurb">tiny endless runner</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/comet-and-commander">code</a> <a href="https://cursedprograms.github.io/comet-and-commander/">comet and commander</a> <span class="blurb">3d space rts in html</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Cursed-Riddles">code</a> <a href="https://cursedprograms.github.io/Cursed-Riddles/">cursed riddles</a> <span class="blurb">brainfuck riddle game</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Red-Text-Adventure">red text adventure</a> <span class="blurb">text adventure in red</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/astar-html-css-js">code</a> <a href="https://cursedprograms.github.io/astar-html-css-js/">astar html css js</a> <span class="blurb">a* pathfinding</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/3d-earth-viewer">code</a> <a href="https://cursedprograms.github.io/3d-earth/">3d earth viewer</a> <span class="blurb">3d earth</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/css-3d-surface">code</a> <a href="https://cursedprograms.github.io/css-3d-surface/">css 3d surface</a> <span class="blurb">css 3d surface</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/svg-animations">code</a> <a href="https://cursedprograms.github.io/svg-animations/">svg animations</a> <span class="blurb">svg animation</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/itch.io-js">code</a> <a href="https://cursedprograms.github.io/itch.io-js/">itch.io-js</a> <span class="blurb">itch.io embeds</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>augmented reality</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ar.js">code</a> <a href="https://augmented-reality-js.netlify.app/">ar.js</a> <span class="blurb">ar.js template</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/three.js-ar.js-flask">code</a> <a href="https://three-js-ar-js-flask.onrender.com/">three.js-ar.js-flask</a> <span class="blurb">three.js + ar.js on flask</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/AR-Python-OpenCV">code</a> <a href="https://cursedprograms.github.io/AR-Python-OpenCV/">ar python opencv</a> <span class="blurb">aruco markers with opencv</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/3D-AR-Gemini">code</a> <a href="https://cursedprograms.github.io/3D-AR-Gemini/">3d ar gemini</a> <span class="blurb">gemini in ar</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/obj-arframe">code</a> <a href="https://cursedprograms.github.io/obj-arframe/">obj arframe</a> <span class="blurb">ar art frame</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Augmented-Reality-Resources">code</a> <a href="https://cursedprograms.github.io/Augmented-Reality-Resources/">augmented reality resources</a> <span class="blurb">ar source list</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Augmented-Reality-Story-Time">augmented reality story time</a> <span class="blurb">arcore story template</span></li>
+                    <li><a href="https://github.com/CursedPrograms/ARFoundation-PlaceObject">arfoundation placeobject</a> <span class="blurb">arcore place object</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Unity-ARFoundation-Template">unity arfoundation template</a> <span class="blurb">arcore template</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ARToolkit-Unity-Template">code</a> <a href="https://cursedprograms.github.io/ARToolkit-Unity-Template/">artoolkit unity template</a> <span class="blurb">artoolkit for unity</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ARToolkit-Unity-Batch-Template">code</a> <a href="https://cursedprograms.github.io/ARToolkit-Unity-Batch-Template/">artoolkit unity batch template</a> <span class="blurb">artoolkit unity template</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ARToolkit-ArtGallery-Template">code</a> <a href="https://cursedprograms.github.io/Augmented-Reality-ArtGallery-Template/">artoolkit artgallery template</a> <span class="blurb">ar art gallery</span></li>
+                    <li><a href="https://github.com/CursedPrograms/ARToolkit-Modern-Devices">artoolkit modern devices</a> <span class="blurb">artoolkit for modern devices</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>unity &amp; game dev</h2>
+                    <ul>
+                    <li><a href="https://github.com/CursedPrograms/Acacia-GameEngine">acacia gameengine</a> <span class="blurb">c++ game engine</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ConfederateAI">code</a> <a href="https://cursed-entertainment.itch.io/confederate-ai">confederateai</a> <span class="blurb">3d logic ai for unity</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/RTS_oU">code</a> <a href="https://cursed-entertainment.github.io/RTS_oU/">rts ou</a> <span class="blurb">unity rts editor</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/oU_Js">code</a> <a href="https://cursedprograms.github.io/oU_Js/">ou js</a> <span class="blurb">oU-rts scripts</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/oU_Shaders">code</a> <a href="https://cursedprograms.github.io/oU_Shaders/">ou shaders</a> <span class="blurb">oU-rts shaders</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Procedurally-Generated-Hexagonal-Map-Unity">procedurally generated hexagonal map unity</a> <span class="blurb">hex map generator</span></li>
+                    <li><a href="https://github.com/CursedPrograms/floaty-follower">floaty follower</a> <span class="blurb">floaty follower</span></li>
+                    <li><a href="https://github.com/CursedPrograms/button-animator">button animator</a> <span class="blurb">button animator</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Random-Unity-Fun">random unity fun</a> <span class="blurb">random unity scripts</span></li>
+                    <li><a href="https://github.com/CursedPrograms/ExperimentalShaders">experimentalshaders</a> <span class="blurb">shaders</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Unity-ColorSchemes">unity colorschemes</a> <span class="blurb">colour schemes</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Platform-Defines">platform defines</a> <span class="blurb">platform defines</span></li>
+                    <li><a href="https://github.com/CursedPrograms/CeChan-3D">cechan 3d</a> <span class="blurb">open 3d placeholder character</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Flask-Client-Manager">flask client manager</a> <span class="blurb">flask + unity client manager</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Unity-Gemini-Template">code</a> <a href="https://cursedprograms.github.io/Unity-Gemini-Template/">unity gemini template</a> <span class="blurb">gemini in unity</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Unity-CC-Template">code</a> <a href="https://cursedprograms.github.io/Unity-CC-Template/">unity cc template</a> <span class="blurb">c++ in unity</span></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>templates</h2>
+                    <ul>
+                    <li><a class="code" href="https://github.com/CursedPrograms/website-template">code</a> <a href="https://cursedprograms.github.io/website-template/">website template</a> <span class="blurb">template for a static website</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/pr-website-template">code</a> <a href="https://cursedprograms.github.io/pr-website-template/">pr website template</a></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/glass-morphism-template">code</a> <a href="https://cursedprograms.github.io/glass-morphism-template/">glass morphism template</a></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/ce-html-template">code</a> <a href="https://cursed-entertainment.github.io/ce-html-template/">ce html template</a> <span class="blurb">html template for cursed entertainment</span></li>
+                    <li><a href="https://github.com/CursedPrograms/project-template">project template</a></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Python-Template">code</a> <a href="https://cursed-entertainment.github.io/Cursed-Python-Template/">python template</a> <span class="blurb">template for python projects</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Flask-Python-Template">flask python template</a> <span class="blurb">flask python template</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Python-Django-Template">python django template</a> <span class="blurb">python template for flask &amp; django</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/CPP-Template">code</a> <a href="https://cursedprograms.github.io/CPP-Template/">cpp template</a> <span class="blurb">c++ template</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Julia-Template">code</a> <a href="https://cursedprograms.github.io/Julia-Template/">julia template</a> <span class="blurb">template for a julia project</span></li>
+                    <li><a href="https://github.com/CursedPrograms/nodejs-js-template">nodejs js template</a></li>
+                    <li><a href="https://github.com/CursedPrograms/nodejs-ts-template">nodejs ts template</a> <span class="blurb">nodejs template for typescript</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Rust-Static-Site-Template">rust static site template</a></li>
+                    <li><a href="https://github.com/CursedPrograms/three.js-template">three.js-template</a></li>
+                    <li><a href="https://github.com/CursedPrograms/Unity-Template">unity template</a> <span class="blurb">unity template</span></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/Unity-Advanced-Template">code</a> <a href="https://cursedprograms.github.io/Unity-Advanced-Template/">unity advanced template</a></li>
+                    </ul>
+                </section>
+                <section class="dir-section">
+                    <h2>experiments</h2>
+                    <ul>
+                    <li><a href="https://github.com/CursedPrograms/.Net-Python">.net-python</a> <span class="blurb">.net - python</span></li>
+                    <li><a href="https://github.com/CursedPrograms/Ballerina-Test">ballerina test</a></li>
+                    <li><a class="code" href="https://github.com/CursedPrograms/fsharp-test">code</a> <a href="https://cursedprograms.github.io/fsharp-test/">fsharp test</a></li>
+                    </ul>
+                </section>
+        </div>
+
+        <div class="dir-qr">
+            <a href="https://cursed-entertainment.github.io/cursed-directory/">
+                <img src="images/site-qr.png" alt="QR code to the cursed directory" width="180" height="206">
+            </a>
+        </div>
+    </main>
+
     <div class="icons_container">
-        <iframe
+        <iframe title="Social links"
             src="https://cursedprograms.github.io/cursedentertainment/iframes/social-media-icons/social-media-icons.html"
-            frameborder="0"></iframe>
+            frameborder="0" width="100%" height="100px"></iframe>
     </div>
     <footer id="dynamicFooter"></footer>
     <script src="https://cursedprograms.github.io/cursedentertainment/scripts/footer.js"></script>
-    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('cursedentertainment', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#323842',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
