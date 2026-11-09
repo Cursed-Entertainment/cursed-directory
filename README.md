@@ -8,7 +8,7 @@
 
 # cursed directory
 
-Every Cursed Entertainment website, game, robot and program in one list: the DREAM Robotics fleet, the Changeling face apps, AI and vision tools, VSTs and pedals, web games, AR, Unity work and templates. It replaces the old VST-Directory.
+Every Cursed Entertainment website, game, robot and program in one list: the DREAM Robotics fleet, the Changeling face apps, AI and vision tools, VSTs and pedals, web games, AR, Unity work and templates.
 
 Visit the live directory [here](https://cursed-entertainment.github.io/cursed-directory/).
 
